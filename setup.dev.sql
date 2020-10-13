@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS photo_urls;
+CREATE DATABASE photo_urls;

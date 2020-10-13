@@ -1,7 +1,7 @@
 from configparser import ConfigParser
 
 
-def config(filename='database.ini', section='postgresql'):
+def config(filename='database.ini', section='development'):
     parser = ConfigParser()
     parser.read(filename)
 
